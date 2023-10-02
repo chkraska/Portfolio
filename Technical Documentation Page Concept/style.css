@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+html body{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 100%;
+  text-align: justify;
+   min-width: 290px;
+  margin: 0px;
+  
+}
+
+code{
+   font-family: Consolas,"courier new";
+  background-color: #f1f1f1;
+  margin:10px;
+  padding: 15px;
+  font-size: 80%;
+  display:block;
+  border-radius: 10px;
+  position: relative;
+  white-space: pre-line;
+  line-height: 30px;
+}
+nav{
+  display:block;
+}
+#navbar{
+  position:fixed;
+  min-width:290px;
+  top: 0px;
+  left: 0px;
+  width:300px;
+  background-color: #f1f1f1;
+  height:100%;
+  border-right: solid;
+  border-color: grey;
+}
+#navbar ul{
+  height: 100%;
+  padding: 0px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#navbar li {
+  border-top: solid;
+  border-color: gray;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+#navbar a {
+  display: block;
+  padding: 20px 10px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+#navbar header{
+  margin: 0px 0px 10px 0px;
+  font-size: 27px;
+  text-align: center;
+  font-weight: bold;
+  
+}
+@media(max-width: 400px){
+  margin: 10px;
+}
+
