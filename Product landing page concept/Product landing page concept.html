@@ -1,0 +1,243 @@
+<html>
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <header id="header">
+   
+   <img id="header-img" src="https://equipvr.io/wp-content/uploads/2020/09/oculus-quest-2-logo-290.60505260324xauto@2x.png" alt="logo" >
+   <nav id="nav-bar">
+      <ul>
+        <li><a href="#section1" class="nav-link">Features</a></li>
+        <li><a href="#section2" class="nav-link">How it works</a></li>
+        <li><a href="#section3" class="nav-link">Pricing</a>
+        </li>
+      </ul>
+        </nav>
+  </header>
+  <head>
+<!--Style of page -->
+    <style>
+        @import 'https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300';
+*{
+  font-family: 'Karla', sans-serif;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+    text-shadow: 2px 2px 5px blue;
+margin: 50px;
+} 
+#info{
+  text-align: center;
+   font-size: 18px;
+  display: inline;
+  text-decoration: overline;
+}
+body{
+  margin-top: 150px;
+}
+
+header{
+  left:0;
+  width:100%;
+  top: 0;
+  position: fixed;
+  min-height: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: #eee;
+  
+}
+#header-img{
+ width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+@media (max-width: 650px) {
+nav{
+margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#nav-bar{
+ margin-left: 400px;  
+}
+}
+.nav-link{
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style: none;
+  display: inline;
+  margin: 25px;
+  font-size: 18px;
+}
+#form{
+  text-align: center;
+  margin-bottom: 100px;
+}
+#email{
+  width:100%;
+  max-width:250px;
+  border-radius:10px;
+  padding:5px;
+}
+#submit{
+  font-family: Calisto MT;
+  font-size: 16px;
+  width:100%;
+  max-width:130px;
+  min-height:40px;
+  border-radius: 10px;
+  padding: 0.75rem;
+  display:block;
+  margin: auto;
+  margin-top:5px;
+  color:white;
+  background: rgb(6,14,131);
+  background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+  border: none;
+}
+#submit:hover {
+   background: rgb(0,3,255);
+background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+}
+#text{
+  font-size:18px;
+  margin-left: 50px;
+  text-align: justify;
+  margin-bottom: 50px;
+  position:flex;
+}
+.material-icons{
+  color: darkblue;
+  margin:10px;
+  float: left;
+}
+#video{
+  display: block;
+margin: auto;
+  padding: 10px;
+}
+.product{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 0px;
+  width: calc(100% / 2);
+}
+.product >.level{
+background-color: #ddd;
+  font-size: 25px;
+  width:100%;
+  padding: 15px 0;
+  
+}
+#section3{
+  display: flex;
+  height: 380px;
+  
+}
+.product > ol > li{
+  padding: 5px 0;
+  display: list-item;
+  text-align: center;
+  font-size: 20px;
+   text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+}
+h2{
+  color: blue;
+}
+ol{
+  padding-inline-start: 0px;
+}
+
+.btn{
+  min-width:100px;
+ padding: 10px;
+  color: white;
+    cursor: pointer;
+   background: rgb(6,14,131);
+  background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+   background: rgb(0,3,255);
+background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+}
+    </style>
+  </head>
+  <body>
+    <h1>Oculus Quest 2 VR headset</h1>
+    <div id=info><p>Hundreds of hit games, one-of-a-kind experiences, live events, new ways to stay fit and a growing community of users await you on Quest 2.</p>
+      <p><b>Sign Up for newsletter to get info about sale:</b></p>
+    </div>
+    <form id="form"
+      action ="https://www.freecodecamp.com/email-submit">
+      
+    <input name="email" type="email" placeholder="Enter your email here" id="email">
+    <input type="submit" id="submit" value="Sign me" class="btn"></input>
+    </form> 
+    
+  <i class="material-icons" style="font-size:50px">people</i>
+  <div id="text">  
+  <h3 id="section1">
+      IT’S ALL FUN AND GAMES. AND FITNESS. AND ENTERTAINMENT. AND MORE.
+       </h3>
+      <p> Quest 2 makes it possible to sit front row at a live concert, burn calories atop a glacier, hang out with friends all over the world, work, watch a movie and yes, even play a game.</p>
+  </div>
+  <i class="material-icons" style="font-size:50px">videogame_asset</i>
+  <div id="text">
+    <h3>PLAY ALL YOUR FAVORITES, WITH ALL YOUR FAVORITES</h3>
+    <p>From multiplayer games to unique social experiences to joining up with friends at a live show or instructor-led workout, opportunities to meet and connect with others in VR are virtually everywhere you look.</p>
+  </div>
+  <i class="material-icons" style="font-size:50px">language</i>
+  <div id="text">
+    <h3>READY, HEADSET, GO</h3>
+    <p>No wires means you're not stuck playing Quest 2 at home. You’re free to take all the games, workouts, shows, experiences and more on the road with you. Which means you can go anywhere with it, and do anything in it.</p>
+  </div>
+    <section id="section2">
+<iframe id="video" width="650" height="400" src="https://www.youtube.com/embed/ATVGl9wOJsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;" allowfullscreen></iframe>
+    </section>
+  <br></br><br></br>
+  <section id="section3">
+    <div class="product" id="128gb">
+      <div class="level"><b>128 GB Version</b></div>
+      <h2>349€</h2>
+      <ol>
+        <li>Cheapest version</li>
+        <li>Only 128 GB of bulit-in storage</li>
+        <li>Great for low-budget</li>
+      </ol>
+      <button class="btn">SELECT</button>
+    </div>
+    
+     <div class="product" id="258gb">
+       <div class="level"><b>258 GB Version</b></div>
+      <h2>449€</h2>
+      <ol>
+        <li> No need to worry about storage</li>
+        <li>258 GB of bulit-in storage</li>
+        <li>Just buy it</li>
+      </ol>
+      <button class="btn">SELECT</button>
+    </div>
+    </section>
+  </body>
+<footer>
+      <span>Copyright 2022, Oculus quest 2 by chrisu</span>
+    </footer>
+  
+</html>
