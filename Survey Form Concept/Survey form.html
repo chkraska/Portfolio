@@ -1,0 +1,246 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<style>
+    #title{
+  text-align: center;
+  font-size: 55px;
+  color: #CCFFFF;
+ 
+}
+#description{
+  font-size: 20px;
+  text-align: center;
+ margin-top: 0;
+  margin-bottom: 2 rem;
+  color: #FFCCCC;
+  
+}
+#survey-form{
+  background-color: #1b1b32;
+  color:white;
+  width:60%;
+margin:auto;
+   padding: 10px;
+  border-radius: 0.50rem;
+}
+.form-group{
+  font-size: 25px; 
+}
+label{
+  display: flex;
+  align-items: center;
+    margin-bottom: 0.5rem; 
+}
+.textarea{
+  resize: vertical;
+  min-height: 120px;
+  width:100%;
+  margin-bottom: 10px;
+}
+html{
+  background-color: black;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 2.5 rem;
+}
+#submit{
+  font-family: 'Quicksand', sans-serif;
+}
+.input{
+min-height:2px;
+  width: 90%;
+    padding: 0.625rem;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+#dropdown{
+  min-height:2px;
+  width: 93%;
+    padding: 0.625rem;
+  border-radius: 10px;
+  font-family: 'Quicksand', sans-serif;
+   cursor: pointer;
+}
+.input-radio,
+.input-checkbox
+{
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  margin-right: 10px;
+   cursor: pointer;
+}
+#submit{
+  background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+  width: 100%;
+  min-height:50px;
+  padding: 0.75rem;
+  display: block;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+</style>
+    <h1 id="title"><b>Create Your Virtual Character:</h1>
+    <p id="description"> Here you will be creating virtual version of yourself or maybe someone else?</p></b>
+  </head>
+ <body>
+   <form id="survey-form">
+     <div class="form-group">
+       <label id="name-label"> Name:</label><input
+                     id="name"
+                     type="text"
+                     placeholder="Enter your name"
+                     required
+   class="input"
+                     ></div>
+      <div class="form-group">
+   <label id="email-label">Email:</label><input
+                   id="email"
+                         type="email"
+                          required
+                          placeholder="Enter your email"
+                           class="input"
+                          >
+     </div>
+      <div class="form-group">
+<label id="number-label">Age:</label><input
+               id="number"
+               type="number"
+               placeholder="Age"
+               min="10"
+               max="100"
+               class="input"
+                                            >
+        
+     </div>
+     <div class="form-group">
+       <label id="label">Choose your personality:</label><select
+            id="dropdown">
+   <option disabled selected value>Select your trait.</option>
+    <option>Ambitious</option>
+    <option>Agressive</option>
+    <option>Childish</option>
+     <option>Funny</option>
+      <option>Modest</option>
+ </select>
+     </div>
+     <div class="form-group">
+       <p>Choose your race:</p>
+       <label>
+       <input
+              class="input-radio"
+              name="race"
+              type="radio"
+              value="human"
+              checked
+              >
+         Human</label>
+       <label>
+       <input
+              class="input-radio"
+              name="race"
+              type="radio"
+              value="dark-elf"
+              >
+         Dark Elf</label>
+       <label>
+       <input
+              class="input-radio"
+              name="race"
+              type="radio"
+              value="goblin"
+              >
+             Goblin
+         </label>
+       </div>
+       <div class="form-group">
+         <p><strong> Pick your features of appearance: </p></strong>
+     <label>
+       <input
+              class="input-checkbox"
+              name="appearance"
+              type="checkbox"
+              value="long-hair"
+              >
+       Long hair
+     </label>
+     <label>
+       <input
+               class="input-checkbox"
+              name="appearance"
+              type="checkbox"
+              value="short-hair"
+              >
+       Short hair
+     </label>
+        <label>
+       <input
+               class="input-checkbox"
+              name="appearance"
+              type="checkbox"
+              value="masculline"
+              >
+       Masculline
+     </label>
+      <label>
+       <input
+               class="input-checkbox"
+              name="appearance"
+              type="checkbox"
+              value="skinny"
+              >
+        Skinny</label>
+      <label>
+       <input
+               class="input-checkbox"
+              name="appearance"
+              type="checkbox"
+              value="fat"
+              >
+        Fat</label>
+      <label>
+       <input
+               class="input-checkbox"
+              name="appearance"
+              type="checkbox"
+              value="short"
+              >
+       Short
+     </label>
+      <label>
+     <input
+             class="input-checkbox"
+              name="appearance"
+              type="checkbox"
+              value="tall"
+              >
+       Tall
+     </label>
+      <label>
+       <input
+               class="input-checkbox"
+              name="appearance"
+              type="checkbox"
+              value="None"
+              >
+       Medium height
+        
+       </div>
+     </label>
+     <div class="form-group">
+       <p><i>Write a short story about your Character:</i></p>
+       <label>
+       <textarea
+         id="story"
+          class="textarea"
+           name="story"
+            placeholder="Enter it here......"
+             ></textarea>
+       </label>
+   </div>
+   <button type="submit" id="submit"  value="submit"><b>Submit</b></button>
+  </form>
+  </body>
+</html>
