@@ -1,1 +1,1 @@
-Here are simple programs which I used to learn JS.
+Here are simple programs which I wrote to learn JS.
