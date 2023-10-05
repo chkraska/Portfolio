@@ -1,4 +1,4 @@
-#BeginnerProjects
+# Beginner Projects
 Links to preview sites:
 
 https://chkraska.github.io/Portfolio/Product%20landing%20page%20concept/Product%20landing%20page%20concept.html
