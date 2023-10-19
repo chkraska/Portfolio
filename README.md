@@ -8,3 +8,5 @@ https://chkraska.github.io/Portfolio/Survey%20Form%20Concept/Survey%20form.html
 https://chkraska.github.io/Portfolio/Technical%20Documentation%20Page%20Concept/Technical%20Documentation%20Page%20Concept.html
 
 https://chkraska.github.io/Testimonials-grid-section/
+
+https://chkraska.github.io/Newsletter-sign-up-form-with-success-message/
